@@ -1,0 +1,58 @@
+Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+Copyright (c) 2026 Andrej Lisal
+
+This work — the LUTs in `luts/` and `dist/`, the documentation in `docs/`, and the
+preview images in `preview/` — is licensed under the Creative Commons Attribution 4.0
+International License.
+
+You are free to:
+
+  Share  — copy and redistribute the material in any medium or format
+  Adapt  — remix, transform, and build upon the material
+           for any purpose, including commercially.
+
+Under the following terms:
+
+  Attribution — You must give appropriate credit, provide a link to the license, and
+  indicate if changes were made. You may do so in any reasonable manner, but not in any
+  way that suggests the licensor endorses you or your use.
+
+  No additional restrictions — You may not apply legal or technological measures that
+  legally restrict others from doing anything the license permits.
+
+Notices:
+
+  You do not have to comply with the license for elements of the material in the public
+  domain or where your use is permitted by an applicable exception or limitation.
+
+  No warranties are given. The license may not give you all of the permissions necessary
+  for your intended use. For example, other rights such as publicity, privacy, or moral
+  rights may limit how you use the material.
+
+The full legal code is at:
+
+  https://creativecommons.org/licenses/by/4.0/legalcode
+
+In plain terms: use these LUTs in client work, in films you sell, in anything. Credit in
+your video is appreciated but not required; credit in writing (a repo link, a mention in
+a description) is what the license asks for.
+
+---
+
+CODE
+
+The build scripts in `src/` are licensed separately under the MIT License. See
+LICENSE-CODE.
+
+---
+
+THIRD-PARTY MATERIAL NOT COVERED BY THIS LICENSE
+
+This pack is derived from measurements of DJI's official D-Log2 to Rec.709 conversion
+LUT. The derived transforms in `luts/` are original work generated from a fitted model
+and are covered by this license.
+
+DJI's own LUT files are NOT covered by this license and are not redistributed in this
+repository. To rebuild the pack from source you must obtain them yourself from DJI's
+support site. See README.

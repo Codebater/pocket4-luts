@@ -1,5 +1,10 @@
 # POCKET 4P — D-Log 2 LUT Pack v1.0
 
+[![Download v1.0](https://img.shields.io/badge/download-v1.0-000000?style=flat-square)](../../releases/latest)
+
+**For:** DJI Osmo Pocket 4P shooting D-Log 2 · **Format:** `.cube`, 33- and 65-point ·
+**Price:** free
+
 12 LUTs for **DJI Osmo Pocket 4P** footage shot in **D-Log 2**, in 33- and
 65-point `.cube`.
 
@@ -290,7 +295,8 @@ than trusting filters:
 
 ```
 luts/      the 24 .cube files (12 looks x 33 and 65 point)
-vendor/    DJI's official D-Log2 -> Rec.709 cubes, used as the base
+vendor/    DJI's official cubes, used as the base. NOT in this repo -
+           download them from DJI support to rebuild (see License).
 src/       the generator: curve model, look engine, builder, validator
 docs/      COLOR-SCIENCE.md - full derivation, measurements and sources
 preview/   contact sheets
@@ -337,3 +343,18 @@ with brightness). Rather than invent one, the pack routes colour through
 DJI's official cube, which contains their real colorimetry.
 
 Full derivation, every measurement and all sources: **[docs/COLOR-SCIENCE.md](docs/COLOR-SCIENCE.md)**.
+
+---
+
+## License
+
+The LUTs in `luts/`, the documentation in `docs/` and the previews are
+[CC BY 4.0](LICENSE) — use them in client work, in films you sell, in anything.
+Credit in your video is appreciated but not required; a link back is what the
+licence asks for. The build scripts in `src/` are [MIT](LICENSE-CODE).
+
+**DJI's own LUTs are not included and are not covered by either licence.** This
+pack is derived from *measurements* of DJI's D-Log2 to Rec.709 conversion, and
+those derived transforms are original work. DJI's files themselves are theirs.
+To rebuild from source, download the official pack from DJI's support site and
+put the cubes in `vendor/`.
